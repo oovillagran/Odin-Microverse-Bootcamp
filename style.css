@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: 1.5;
+    color: hsl(0, 5%, 4%);
+  }
+  
+.heading {
+    background-color: #ffd720;
+    width: 93%;
+    padding: 40px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 1.5em;
+    
+}
+#beach{
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    border-radius: 100%;
+    max-width: 100%;
+    height: 150px;    
+    
+}
+#mountain{
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    border-radius: 100%;
+    height: 150px;
+    max-width: 100%;
+}
+
+#beaches {
+    background-color: aqua;
+    width: 30%;
+    margin: 0px auto;
+    padding: 40px;
+    font-size: 1em;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+
+}
+#mountains {
+    background-color: greenyellow;
+    width: 30%;
+    margin: 0px auto;
+    padding: 40px;
+    font-size: 1em;
+    position: absolute;
+    top: 200px;
+    left: 450px
+
+}
+
+#jungle {
+    background-color: orangered;
+    width: 30%;
+    margin: 0px auto;
+    padding: 40px;
+    font-size: 1em;
+    position: absolute;
+    top: 200px;
+    left: 850px
+    
+
+}
+
+p{
+    text-align: justify;
+}
+
+.teaser iframe {
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+    ;
+}
+
+.col-1-3 {
+    background-color: aqua
+    align-items: center;
+}
+
+.col-2-3 {
+
+    align-self: center;
+}
+
+.col-3-3 {
+
+    align-self: right;
+}
+
+
+h5 {
+    color: black;
+    font-size: 12px;
+    
+}
+
+h3 {
+    font-size: 15px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 610px;
+    left: 50px;
+    width: 93%;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child{
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+
+.active {
+    background-color: #04AA6D;
+}
